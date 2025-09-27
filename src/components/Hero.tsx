@@ -2,8 +2,10 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Github, Linkedin, ArrowDown } from "lucide-react";
 import heroWorkspace from "@/assets/hero-workspace.jpg";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Hero = () => {
+  const isMobile = useIsMobile();
   const scrollToProjects = () => {
     const projectsSection = document.getElementById("projects");
     projectsSection?.scrollIntoView({ behavior: "smooth" });
@@ -48,9 +50,11 @@ const Hero = () => {
               <Mail className="w-6 h-6 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="tel:+918928508584"
+              href={isMobile ? "tel:+918928508584" : "https://wa.me/918928508584"}
               className="p-4 rounded-full bg-surface/80 backdrop-blur-sm border border-border hover-lift hover-glow group"
               title="Phone"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <Phone className="w-6 h-6 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
