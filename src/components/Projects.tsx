@@ -9,7 +9,7 @@ const Projects = () => {
     {
       title: "bindas-vibes-stickers",
       description: "E-commerce website for custom stickers with modern design and seamless user experience",
-      skills: ["React.js", "TypeScript", "E-commerce", "UI/UX"],
+      skills: ["React.js", "TypeScript", "E-commerce", "UI/UX" , "R2 Cloud" , "Firebase"],
       github: "https://github.com/rushimadane/bindas-vibes-stickers",
       demo: null,
       gradient: "from-purple-500/20 to-pink-500/20"
@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "Share Warmth Together",
       description: "Community platform connecting donors with those in need, fostering social impact",
-      skills: ["React.js", "Node.js", "MongoDB", "Social Impact"],
+      skills: ["React.js", "Node.js", "Firebase", "Social Impact"],
       github: "https://github.com/rushimadane/share-warmth-together",
       demo: null,
       gradient: "from-blue-500/20 to-cyan-500/20"
@@ -33,7 +33,7 @@ const Projects = () => {
     {
       title: "Learn IT",
       description: "Educational platform for IT concepts with interactive learning modules",
-      skills: ["Education Tech", "React.js", "Interactive Learning"],
+      skills: ["Education Tech", "React.js", "Interactive Learning" , "AI Integration"],
       github: "https://github.com/rushimadane/learn-it",
       demo: null,
       gradient: "from-orange-500/20 to-red-500/20"
@@ -41,7 +41,7 @@ const Projects = () => {
     {
       title: "Student Exam Prediction Model",
       description: "Machine learning model predicting student performance using advanced algorithms",
-      skills: ["Machine Learning", "scikit-learn", "Python", "Data Analysis"],
+      skills: ["Machine Learning", "scikit-learn", "Python" , "Flask" ,  "Data Analysis"],
       github: "https://github.com/rushimadane/student-exam-prediction",
       demo: null,
       gradient: "from-indigo-500/20 to-purple-500/20"
