@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Present AI",
       description: "AI-powered presentation generator that creates engaging slides from simple prompts",
       skills: ["AI Integration", "React.js", "Machine Learning", "Flask"],
-      github: "https://github.com/rushimadane/present-ai",
+      github: "https://github.com/rushimadane/PresentAI",
       demo: null,
       gradient: "from-green-500/20 to-emerald-500/20"
     },
@@ -34,7 +34,7 @@ const Projects = () => {
       title: "Learn IT",
       description: "Educational platform for IT concepts with interactive learning modules",
       skills: ["Education Tech", "React.js", "Interactive Learning" , "AI Integration"],
-      github: "https://github.com/rushimadane/learn-it",
+      github: "https://github.com/rushimadane/LearnIT---AI-Powered-Study-Portal",
       demo: null,
       gradient: "from-orange-500/20 to-red-500/20"
     },
@@ -42,7 +42,7 @@ const Projects = () => {
       title: "Student Exam Prediction Model",
       description: "Machine learning model predicting student performance using advanced algorithms",
       skills: ["Machine Learning", "scikit-learn", "Python" , "Flask" ,  "Data Analysis"],
-      github: "https://github.com/rushimadane/student-exam-prediction",
+      github: "https://github.com/rushimadane/StudentExamPredictionModel",
       demo: null,
       gradient: "from-indigo-500/20 to-purple-500/20"
     }
